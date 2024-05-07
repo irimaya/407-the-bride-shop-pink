@@ -1,0 +1,46 @@
+/* Utility Classes */
+.display-1 {
+	font-size: 4rem;
+}
+
+.flex {
+	flex-direction: column;
+}
+
+.p-1 {
+	padding: 50px 0;
+}
+
+/* Navbar */
+#navbar {
+	height: 100%;
+}
+
+#navbar .container {
+	flex-direction: column;
+	padding: 40px 0;
+}
+
+#navbar ul li:nth-child(1) {
+	margin-left: 0;
+}
+
+/* Header */
+#mainheader {
+	min-height: 500px;
+}
+
+#mainheader .container {
+	height: 600px;
+	align-items: center;
+	justify-content: center;
+}
+
+#mainheader .container p {
+	width: 100%;
+}
+
+/* About */
+#about .flex-text {
+	text-align: center;
+}

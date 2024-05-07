@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+/* Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	scroll-behavior: smooth;
+	background: #dcc7ba;
+	color: #fff;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Cinzel', serif;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.large {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.small {
+	font-size: 12px;
+}
+
+.display-1 {
+	font-size: 6rem;
+}
+
+.flex {
+	display: flex;
+	gap: 30px;
+}
+
+.p-1 {
+	padding: 120px 0;
+}
+
+.pb-1 {
+	padding-bottom: 80px 0;
+}
+
+.pt-1 {
+	padding-top: 50px;
+}
+
+/* Navbar */
+#navbar {
+	height: 100px;
+}
+
+#navbar .logo {
+	font-family: 'Cinzel', serif;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+#navbar a {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+#navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+#navbar ul {
+	display: flex;
+}
+
+#navbar ul li {
+	margin-left: 20px;
+}
+
+/* Header */
+#mainheader {
+	background: url('/images/showcase.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	min-height: 900px;
+	color: #fff;
+}
+
+#mainheader .container {
+	height: 800px;
+	align-items: flex-end;
+	text-align: center;
+}
+
+#mainheader .container p {
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* Shop */
+#shop p {
+	text-align: center;
+}
+
+/* About */
+#about .flex {
+	margin-bottom: -7px;
+}
+
+#about .flex-text {
+	flex: 2;
+}
+
+#about .flex-image {
+	flex: 1;
+}
+
+/* Newsletter */
+#newsletter {
+	background: url('/images/newsletter.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	height: 600px;
+	color: #fff;
+	align-content: center;
+}
+
+/* Contact */
+#contact .flex {
+	gap: 50px;
+	text-align: center;
+}
+
+#contact p {
+	padding-bottom: 20px;
+}
+
+/* Footer */
+#mainfooter {
+	text-align: center;
+	padding: 30px;
+}
